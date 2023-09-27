@@ -12,4 +12,7 @@ keywords = ["incremental", "memoization", "tracked", "constraints"]
 
 [dependencies]
 comemo-macros = { version = "0.3", path = "macros" }
+dashmap = "5"
+once_cell = "1"
+parking_lot = "0.12"
 siphasher = "0.3"
